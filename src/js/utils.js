@@ -46,7 +46,7 @@ module.exports = {
     // Creating the 4 dates in the good format
     for(var i=0; i<4; i++) {
       tomorrow.setDate(tomorrow.getDate() + 1);
-      tomorrow_formated = tomorrow.getFullYear() + "-" + ("0" + tomorrow.getMonth()+1).slice(-2) + "-" + ("0" + tomorrow.getDate()).slice(-2);
+      tomorrow_formated = tomorrow.getFullYear() + "-" + ("0" + parseInt(tomorrow.getMonth()+1)).slice(-2) + "-" + ("0" + tomorrow.getDate()).slice(-2);
       fourDates.push(tomorrow_formated);
     }
     
