@@ -1,7 +1,7 @@
 {
-  "name": "react-open-weather",
+  "name": "react-open-weather-widget",
   "bin": {},
-  "version": "0.6.2",
+  "version": "1.0.0",
   "description": "React Weather component",
   "main": "lib/js/ReactWeather.js",
   "dependencies": {
@@ -62,10 +62,10 @@
   },
   "repostitory": {
     "type": "git",
-    "url": "https://github.com/farahat80/react-open-weather.git"
+    "url": "https://github.com/ofirattia/react-open-weather.git"
   },
   "bugs": {
-    "url": "https://github.com/farahat80/react-open-weather/issues"
+    "url": "https://github.com/ofirattia/react-open-weather/issues"
   },
   "keywords": [
     "react",
